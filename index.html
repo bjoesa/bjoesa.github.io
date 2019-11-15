@@ -9,30 +9,8 @@
     <style>
     
     body {
-    font-family: Arial;
-    color: white;
-    }
-
-    .split {
-        height: 100%;
-        width: 50%;
-        position: fixed;
-        z-index: 1;
-        top: 0;
-        overflow-x: hidden;
-        padding-top: 20px;
-    }
-
-    .left {
-        left: 0;
-        background-color: #132226;
-        <!-- #4682b4 -->
-    }
-
-    .right {
-        right: 0;
-        background-color: #525B56;
-        <!-- #ba6f3f bamboo -->
+        font-family: Arial;
+        background: rgb(59, 47, 47);
     }
 
     .centered {
@@ -44,13 +22,13 @@
     }
 
     .centered img {
-        width: 150px;
+        width: 125px;
         border-radius: 50%;
     }
 
     /* main */
     a {
-        color:  #FFFFFF;
+        color:  rgb(219, 201, 201);
     }
 
     a:link {
@@ -59,28 +37,38 @@
     }
 
     a:hover {
-        color:  rgb(49, 40, 40);
+        /* color:  rgb(155, 75, 75); */
+        opacity: .3;
     }
+
+    a:hover img {
+        opacity: .8;
+    }
+
+
+    /* 
     
+    CHECK OUT FOR IMRPOVEMENT:
+    
+    https://codepen.io/FrankieDoodie/pen/dgVGad 
+    
+    */
+
     </style>
 
 
 </head>
 <body>
 
-<div class="split left">
-  <div class="centered">
-    <h2>bjoesa.github.io</h2>
-  </div>
-</div>
 
-<div class="split right">
-  <div class="centered">
+    <div class="centered">
 
-    <a href="https://github.com/bjoesa"><h2>me on GitHub</h2></a>
+      <a href="https://github.com/bjoesa"><h2>bjoesa@GitHub</h2></a>
 
-  </div>
-</div>
+      <a href="https://github.com/bjoesa"><img src="img/GitHub-Mark-Light-120px-plus.png" alt="github link"/>
+
+    </div>
      
+
 </body>
 </html> 
